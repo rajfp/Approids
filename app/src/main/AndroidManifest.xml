@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rajat.approids">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main2Activity"
+            android:screenOrientation="portrait"
+            android:label="Approids">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Beauty Tips"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Display"
+            android:label="Description"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Food"
+            android:label="Food Tips"
+            android:parentActivityName=".Main2Activity"/>
+        <activity android:name=".Nuskhe"
+            android:label="Nuskhe"
+            android:parentActivityName=".Main2Activity"/>
+        <activity android:name=".yoga"
+            android:label="Yoga"
+            android:parentActivityName=".Main2Activity"></activity>
+    </application>
+
+</manifest>

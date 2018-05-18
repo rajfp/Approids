@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="Suggestions"
+            android:id="@+id/sugg"
+            android:icon="@drawable/book"></item>
+
+
+    </group>
+    <item android:title="Like Us">
+        <menu>
+
+            <item
+                android:title="Share"
+                android:id="@+id/share"
+                android:icon="@drawable/share"></item>
+            <item
+                android:title="Rate"
+                android:id="@+id/rate"
+                android:icon="@drawable/rate"></item>
+            <item
+                android:title="Like Us On Facebook"
+                android:id="@+id/like"
+                android:icon="@drawable/like"></item>
+            <item
+                android:title="More Apps"
+                android:id="@+id/more"
+                android:icon="@drawable/more"></item>
+        </menu>
+    </item>
+</menu>

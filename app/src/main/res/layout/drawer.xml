@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="150dp"
+    android:orientation="vertical"
+    android:background="#A8A8A8">
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:typeface="sans"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Approids Technologies"
+        android:textSize="20sp"
+        android:textColor="#D3D3D3"
+        />
+<TextView
+    android:layout_marginLeft="70dp"
+    android:textColor="#D3D3D3"
+    android:typeface="serif"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="xyz@gmail.com"
+    android:textSize="18sp"
+    />
+
+</LinearLayout>
